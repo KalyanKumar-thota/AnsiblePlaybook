@@ -1,0 +1,8 @@
+---
+- name: creating directories by ansible
+  hosts: all
+  tasks:
+    - name: creating directories by ansible
+      file:
+        path: /opt/TD-by-Ansible
+        state: directory
